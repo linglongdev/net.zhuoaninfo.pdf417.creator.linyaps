@@ -1,0 +1,136 @@
+version: "1.0"
+package:
+  id: net.zhuoaninfo.pdf417.creator.linyaps
+  name: 卓安公文二维条形码生成软件
+  version: 0.0.1.3
+  kind: app
+  description: 此软件依据GB0226-2005标准,用于日常公文二维条形码的生成;如有其他功能需求,请联系厂商。
+command:
+  - /opt/apps/net.zhuoaninfo.pdf417.creator.linyaps/files/bin/start.sh
+base: org.deepin.foundation/20.0.0
+sources:
+  - kind: file
+    url: https://pro-store-packages.uniontech.com/appstore/pool/appstore/n/net.zhuoaninfo.pdf417.creator/net.zhuoaninfo.pdf417.creator_1.03_all.deb
+    digest: be571e650189cc58fb19d93b9e732a0ed5f288de1f4d00c8333ebcb1e7c1e3ac
+  - kind: file
+    url: https://community-packages.deepin.com/deepin/apricot/pool/main/o/openjdk-8/openjdk-8-jdk_8u212-b01-1~deb9u1_amd64.deb
+    digest: 7263c9b2e67aeb0b065392ca8455d3f579c415e351accce89620d4730c4c447a
+  - kind: file
+    url: https://community-packages.deepin.com/deepin/apricot/pool/main/o/openjdk-8/openjdk-8-jre_8u212-b01-1~deb9u1_amd64.deb
+    digest: faa6cd53f881b9fbdaa926347398b7ebae7a65ef7603afd781b9e34bebc7c3c6
+  - kind: file
+    url: https://community-packages.deepin.com/deepin/apricot/pool/main/o/openjdk-8/openjdk-8-jre-headless_8u212-b01-1~deb9u1_amd64.deb
+    digest: a02bdc083f33baa713e54e32639033692862c9a83a13d32c70510e59d9af2696
+  - kind: file
+    url: https://community-packages.deepin.com/deepin/apricot/pool/main/c/ca-certificates-java/ca-certificates-java_20190405_all.deb
+    digest: daff9c69bd1522c3a7889b08cd342bd1015ca11236fa7af0d5f586edeafa8fdb
+  - kind: file
+    url: https://community-packages.deepin.com/deepin/apricot/pool/main/j/java-common/default-jre-headless_1.11-72-1+eagle_amd64.deb
+    digest: a86dab23e3a936fe3e9551de987b299e9b460c06cd74cf9b48b227aa66cd4b10
+  - kind: file
+    url: https://community-packages.deepin.com/deepin/apricot/pool/main/o/openjdk-11/openjdk-11-jre-headless_11.0.9.2+1-1~deb10u2_amd64.deb
+    digest: fc8af7708aba4ea9d2d8ab990fc4b407da0c6d867d938a12d4bf99edbb2060b0
+  - kind: file
+    url: https://community-packages.deepin.com/deepin/apricot/pool/main/j/java-common/java-common_0.72-1+eagle_all.deb
+    digest: fd9eda4b26869fb242711669cb8c4eec4b366c59b880bd5dacaa0b9a18b57f36
+  - kind: file
+    url: https://community-packages.deepin.com/deepin/apricot/pool/main/b/brotli/libbrotli1_1.0.7.1-1+eagle_amd64.deb
+    digest: d0164ef22361cbaf7421adab98ecc52dd0013dc656efcd1993afe4262c13c330
+  - kind: file
+    url: https://community-packages.deepin.com/deepin/apricot/pool/main/u/util-linux/util-linux-extra_2.38.1-1.1_amd64.deb
+    digest: 489bc82e8e2d2d00cc216a38240b738958871e94d5cc4a1b7724095adb9e9560
+  - kind: file
+    url: https://community-packages.deepin.com/deepin/apricot/pool/main/m/mesa/libgl1-mesa-glx_21.3.8.3-1_amd64.deb
+    digest: 0236e17e66a3b2435355c0c8d7ce738ce72618614ecb56d2239f2bb0ccf35778
+  - kind: file
+    url: https://community-packages.deepin.com/deepin/apricot/pool/main/m/mesa/mesa-config_21.3.8.3-1_amd64.deb
+    digest: edda7affd1f8916f4d14151879007a800def64644a2c3c2aae3f888dcd4bce6c
+  - kind: file
+    url: https://community-packages.deepin.com/deepin/apricot/pool/main/l/llvm-toolchain-13/libllvm13_13.0.1~+rc3-1~exp1_amd64.deb
+    digest: 76a12a863196a1476c2d80e4e9760a1c6b372c5ac6625d192847e839c675c95a
+  - kind: file
+    url: https://community-packages.deepin.com/deepin/apricot/pool/main/i/icu/libicu70_70.1-2_amd64.deb
+    digest: 413244f007c488d0c54c952239e2511118cbabb52821d3150fa4d3325595b551
+  - kind: file
+    url: https://community-packages.deepin.com/deepin/apricot/pool/main/v/vulkan-loader/libvulkan1_1.2.162.0-1_amd64.deb
+    digest: eb3e80d6202012ee920926fe1bc15feae18d2e57582e2fdffba9c1ce2ec55f82
+  - kind: file
+    url: https://community-packages.deepin.com/deepin/apricot/pool/main/j/java-atk-wrapper/libatk-wrapper-java-jni_0.33.3-22_amd64.deb
+    digest: 913e96ef523340d10b5e47937a5c28410afd8875e3859ac8afb82189771234ae
+  - kind: file
+    url: https://community-packages.deepin.com/deepin/apricot/pool/main/j/java-atk-wrapper/libatk-wrapper-java_0.33.3-22_all.deb
+    digest: fc9795c8ea4ba94b7bb596ad82c174ddb53aae07793ba913f87b8732221dc404
+  - kind: file
+    url: https://community-packages.deepin.com/deepin/apricot/pool/main/x/x11-utils/x11-utils_7.7+4_amd64.deb
+    digest: 626bdef46c618f74588508d94c3f02cee518dbd61f6e42451e34e8880e15b3e3
+  - kind: file
+    url: https://community-packages.deepin.com/deepin/apricot/pool/main/libf/libfontenc/libfontenc1_1.1.3.1-1+rebuild_amd64.deb
+    digest: 341934e5a7c90973131e3a419ca90e9cc3bb5b188915d727beef526de4081461
+  - kind: file
+    url: https://community-packages.deepin.com/deepin/apricot/pool/main/libx/libxaw/libxaw7_1.0.13.1-1+rebuild_amd64.deb
+    digest: dee51e30987eccb4d83e670a25f355e0003c8c5c84c4790da9d811216032adb5
+  - kind: file
+    url: https://community-packages.deepin.com/deepin/apricot/pool/main/libx/libxmu/libxmu6_1.1.2.1-1+rebuild_amd64.deb
+    digest: 6dcb6ef392a2fe10f482860df5a1aeb1cbd6af5f2d49b5648a0013f2f7c45cb9
+  - kind: file
+    url: https://community-packages.deepin.com/deepin/apricot/pool/main/libx/libxt/libxt6_1.1.5.1-1+rebuild_amd64.deb
+    digest: 0308731e783c2c8ea195161e092b86dd5cb7189cdcc7fa3823e5053c953dd0a2
+  - kind: file
+    url: https://community-packages.deepin.com/deepin/apricot/pool/main/libx/libxpm/libxpm4_3.5.12-1_amd64.deb
+    digest: e0dcfb70d70819ae57d527bb51b7abca02517ab9d4c8d5875bf74c2d2e6f01bc
+  - kind: file
+    url: https://community-packages.deepin.com/deepin/apricot/pool/main/libx/libxmu/libxmuu1_1.1.2.1-1+rebuild_amd64.deb
+    digest: dad522055097b2428d981831a7c26327ef473e72b537c810749d452fac4fd1f2
+  - kind: file
+    url: https://community-packages.deepin.com/deepin/apricot/pool/main/libx/libxv/libxv1_1.0.11-1_amd64.deb
+    digest: d77a44d3e78bdd5bf5049e938839020500ba398f4e6e76e8e7640d47d40ae932
+  - kind: file
+    url: https://community-packages.deepin.com/deepin/apricot/pool/main/libx/libxxf86dga/libxxf86dga1_1.1.4.1-1+rebuild_amd64.deb
+    digest: 48e207d4da957fc9a61b4f22d82c4a6bbf79fa0b49474cc5e4d581811420f636
+  - kind: file
+    url: https://community-packages.deepin.com/deepin/apricot/pool/main/g/giflib/libgif7_5.1.4.3-deepin1_amd64.deb
+    digest: 66306157d31bcdf8186a791686749b6218e2617e945f3482df2bdb333a3f374d
+  - kind: file
+    url: https://community-packages.deepin.com/deepin/apricot/pool/main/p/pulseaudio/libpulse0_14.2.3-deepin1_amd64.deb
+    digest: 997860325f33c3b276e4a5cd3731c27b20bcf72809902de81f62da8525c66368
+  - kind: file
+    url: https://community-packages.deepin.com/deepin/apricot/pool/main/liba/libasyncns/libasyncns0_0.8-6+apricot_amd64.deb
+    digest: de805cf3264f385e10c99745700e1ce5e7c23c37b1437ec90903c7b70f8c4ebf
+  - kind: file
+    url: https://community-packages.deepin.com/deepin/apricot/pool/main/libs/libsndfile/libsndfile1_1.0.28.3-1+deepin_amd64.deb
+    digest: a3c358e16e60c5e012d1e0c1feb664d877948fe12814fc45b42dc28423255430
+  - kind: file
+    url: https://community-packages.deepin.com/deepin/apricot/pool/main/f/flac/libflac8_1.3.2.2-3+dde_amd64.deb
+    digest: 656e2eecc4b3d99469f5e946d1e399f51bf8d7c27e7a4c05465bf666668a32a6
+  - kind: file
+    url: https://community-packages.deepin.com/deepin/apricot/pool/main/libo/libogg/libogg0_1.3.2.1-1+rebuild_amd64.deb
+    digest: 29bcb4e5c68648da6016e42a019e1d37b46e9829451d1b7414f71ce6d059eb0b
+  - kind: file
+    url: https://community-packages.deepin.com/deepin/apricot/pool/main/libv/libvorbis/libvorbis0a_1.3.6-2_amd64.deb
+    digest: 58ceadc9fcdb5a18c9092e0ab0b65130063132712b81fee72e14ad3d367ca172
+  - kind: file
+    url: https://community-packages.deepin.com/deepin/apricot/pool/main/libv/libvorbis/libvorbisenc2_1.3.6-2_amd64.deb
+    digest: dc6ba53bfba31f24e5c8a4a54786747f1ca60855d4351c3de5bd5a1f36d292fa
+  - kind: file
+    url: https://community-packages.deepin.com/deepin/apricot/pool/main/t/tcp-wrappers/libwrap0_7.6.q-28_amd64.deb
+    digest: 545d24beda62aa37ac22af697dbc43c9fb87d718aeefd3664309759f716ea0ac
+  - kind: file
+    url: https://community-packages.deepin.com/deepin/apricot/pool/main/o/openjdk-8/openjdk-8-jdk-headless_8u212-b01-1~deb9u1_amd64.deb
+    digest: 9022ff80eeff7b9f01877a2055c0d23246f8e4525aaef56263bde885a67a298f
+build: >-
+  export LINGLONG_RAW_ID="net.zhuoaninfo.pdf417.creator"
+
+  export LINGLONG_APP_ID="net.zhuoaninfo.pdf417.creator.linyaps"
+
+  export LINGLONG_APP_NAME="卓安公文二维条形码生成软件"
+
+  export LINGLONG_APP_VERSION="0.0.1.3"
+
+  export LINGLONG_APP_KIND="app"
+
+  export LINGLONG_APP_DESC="此软件依据GB0226-2005标准,用于日常公文二维条形码的生成;如有其他功能需求,请联系厂商。"
+
+  export
+  LINGLONG_COMMAND="/opt/apps/net.zhuoaninfo.pdf417.creator.linyaps/files/bin/start.sh"
+
+  exec /project/build.sh
